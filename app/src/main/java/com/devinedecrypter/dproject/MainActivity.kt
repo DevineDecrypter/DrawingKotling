@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Permission granted", Toast.LENGTH_SHORT).show()
             } else {
                 if (permissionName == Manifest.permission.READ_EXTERNAL_STORAGE) {
-                    Toast.makeText(this@MainActivity, "Permission not granted", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@MainActivity, "Permission not granted, code will not work", Toast.LENGTH_SHORT).show()
                 }
             }
         }
