@@ -23,7 +23,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/cat_bg"
                 />
 
             <com.devinedecrypter.dproject.DrawingView
@@ -165,6 +164,33 @@
             android:layout_height="50dp"
             android:layout_margin="5dp"
             android:src="@drawable/brush"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/ibUndo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/undo"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/ibRedo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/redo"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/save"
             android:scaleType="fitXY"
             />
 
